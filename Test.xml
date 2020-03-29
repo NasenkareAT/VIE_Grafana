@@ -1,0 +1,18 @@
+<channel>
+    <title>Politik - aktuelle Nachrichten und Reportagen</title>
+    <link>http://www.zeit.de/politik/index</link>
+    <description>Aktuelle Nachrichten, Hintergründe und Kommentare zu deutscher und internationaler Politik</description>
+    <language>de-de</language>
+    <copyright>Copyright © 2016, ZEIT ONLINE GmbH</copyright>
+    <atom:link href="http://newsfeed.zeit.de/politik/index" type="application/rss+xml"/>
+    <docs>http://www.zeit.de/hilfe/rss</docs>
+    <generator>zeit.web 3.14</generator>
+    <managingEditor>online-cr.zeit.de (Chefredaktion ZEIT ONLINE)</managingEditor>
+    <webMaster>webmaster@zeit.de (Technik ZEIT ONLINE)</webMaster>
+    <image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>Politik - aktuelle Nachrichten und Reportagen</title>
+      <link>http://www.zeit.de/politik/index</link>
+    </image>
+[…]
+</channel>
