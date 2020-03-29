@@ -1,28 +1,125 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-<channel>
-<title>Test_Channel_Title</title>
-<link>http://</link>
-<description>Test_Channel_description</description>
-  
-<item>
-<title>
-Energiebericht Februar 2020
-</title>
-<link>
-http://www.viennaairport.com
-</link>
-<pubDate>Mon, 02 Mar 2020 00:00:00 +0000</pubDate>
-<guid>
-https://grafana.com/blog/2020/03/27/meet-the-grafana-labs-team-ux-designer-jessica-m%C3%BCller/?utm_source=grafana&utm_medium=rss
-</guid>
-<description>
-As Grafana Labs continues to grow, we&rsquo;d like you to get to know the team members who are working on the cool stuff you&rsquo;re using. Check out the latest of our Friday team profiles. Meet Jess! Name: Jessica Müller Grafana Labs UX Designer Jessica Müller Current location/time zone Darmstadt, Germany &ndash; around 20 minutes south of Frankfurt. CET. What do you do at Grafana Labs? I am a UX Designer.
-</description>
-</item>
-  
-<item>
-<title>Test_Titel</title>
-<pubDate>Mon, 03 Feb 2020 00:00:00 +0000</pubDate>
-<description>Test_description</description>
-</item>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Blog on Grafana Labs</title>
+        <link>https://grafana.com/blog/</link>
+        <description>Recent content in Blog on Grafana Labs</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        
+            <atom:link href="https://grafana.com/blog/index.xml" rel="self" type="application/rss+xml" />
+        
+        
+        <item>
+        <title>Meet the Grafana Labs team: UX designer Jessica Müller!</title>
+        <link>https://grafana.com/blog/2020/03/27/meet-the-grafana-labs-team-ux-designer-jessica-m%C3%BCller/?utm_source=grafana&amp;utm_medium=rss</link>
+        <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://grafana.com/blog/2020/03/27/meet-the-grafana-labs-team-ux-designer-jessica-m%C3%BCller/?utm_source=grafana&amp;utm_medium=rss</guid>
+        <description>As Grafana Labs continues to grow, we&amp;rsquo;d like you to get to know the team members who are working on the cool stuff you&amp;rsquo;re using. Check out the latest of our Friday team profiles.
+Meet Jess! Name: Jessica Müller
+Grafana Labs UX Designer Jessica Müller   Current location/time zone
+Darmstadt, Germany &amp;ndash; around 20 minutes south of Frankfurt. CET.
+What do you do at Grafana Labs?
+I am a UX Designer.</description>
+        </item>
+        
+        <item>
+        <title>Community series: What trust means</title>
+        <link>https://grafana.com/blog/2020/03/26/community-series-what-trust-means/?utm_source=grafana&amp;utm_medium=rss</link>
+        <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://grafana.com/blog/2020/03/26/community-series-what-trust-means/?utm_source=grafana&amp;utm_medium=rss</guid>
+        <description>This is the second post in our community series.
+If you read my last community blog post, you probably expected this piece to be about asking good questions. But it’s not.
+Instead, it&amp;rsquo;s about trust.
+And that leads us to a very interesting question: Why did you expect something different?
+Because I said that’s what I would write about, and you trusted me. Specifically, I ended with, “Which is why the next blog post in our series will cover asking questions in an efficient and effective manner.</description>
+        </item>
+        
+        <item>
+        <title>How we&#39;re using gossip to improve Cortex and Loki availability</title>
+        <link>https://grafana.com/blog/2020/03/25/how-were-using-gossip-to-improve-cortex-and-loki-availability/?utm_source=grafana&amp;utm_medium=rss</link>
+        <pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://grafana.com/blog/2020/03/25/how-were-using-gossip-to-improve-cortex-and-loki-availability/?utm_source=grafana&amp;utm_medium=rss</guid>
+        <description>Have you heard about using the hash ring in Loki and Cortex?
+Here is a short version: In Cortex and Loki, the ring is a space divided by tokens into smaller segments. Each segment belongs to a single “ingester” (component in Cortex and Loki that receives data) and is used to shard series/logs across multiple ingesters. In addition to the tokens, each ingester also has an entry with its ID, address, and the latest heartbeat timestamp updated periodically.</description>
+        </item>
+        
+        <item>
+        <title>How to pull Oracle data and stats directly into Grafana dashboards with the Oracle Enterprise plugin</title>
+        <link>https://grafana.com/blog/2020/03/24/how-to-pull-oracle-data-and-stats-directly-into-grafana-dashboards-with-the-oracle-enterprise-plugin/?utm_source=grafana&amp;utm_medium=rss</link>
+        <pubDate>Tue, 24 Mar 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://grafana.com/blog/2020/03/24/how-to-pull-oracle-data-and-stats-directly-into-grafana-dashboards-with-the-oracle-enterprise-plugin/?utm_source=grafana&amp;utm_medium=rss</guid>
+        <description>Greetings! This is Eldin reporting from the Solutions Engineering team at Grafana Labs. In previous posts, you might have read about Grafana’s Splunk or ServiceNow plugins. In this week&amp;rsquo;s post, I am introducing Aengus, who will be covering our Oracle Enterprise data source. &amp;ndash; Eldin
+Grafana’s plugins are a quick and simple way to extend Grafana’s dashboard plugins and data sources. Leveraging the GoLang oci8 library, the Oracle plugin allows you to pull Oracle data and stats directly into Grafana dashboards &amp;ndash; without having to extract and load the data to “yet another data warehouse” &amp;ndash; which means you can visualize the data either in isolation (one database) or blend the data with other data sources (e.</description>
+        </item>
+        
+        <item>
+        <title>Letter to our customers: Grafana Labs and COVID-19</title>
+        <link>https://grafana.com/blog/2020/03/20/letter-to-our-customers-grafana-labs-and-covid-19/?utm_source=grafana&amp;utm_medium=rss</link>
+        <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://grafana.com/blog/2020/03/20/letter-to-our-customers-grafana-labs-and-covid-19/?utm_source=grafana&amp;utm_medium=rss</guid>
+        <description>As COVID-19 has spread across the world over recent months, upending life as we know it, we have all been watching the situation closely &amp;ndash; both on a business level and a personal one. So first and foremost, we hope that this communication finds you and your loved ones safe and healthy.
+At the same time, we want to reassure you that Grafana Labs continues to operate at full capacity. We have always been a completely distributed, remote-first team &amp;ndash; from our software engineers to our sales representatives &amp;ndash; so the business world’s sudden forced transition to working from home has had little impact on our operations.</description>
+        </item>
+        
+        <item>
+        <title>Grafana v6.7 released: Dashboards, Gdocs, Azure OAuth and more</title>
+        <link>https://grafana.com/blog/2020/03/19/grafana-v6.7-released-dashboards-gdocs-azure-oauth-and-more/?utm_source=grafana&amp;utm_medium=rss</link>
+        <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://grafana.com/blog/2020/03/19/grafana-v6.7-released-dashboards-gdocs-azure-oauth-and-more/?utm_source=grafana&amp;utm_medium=rss</guid>
+        <description>The Grafana v6.7 stable release includes improvements to Authorization and Enterprise reporting as well as a new plugin for Google Sheets. Check out the details below.
+Download Now Highlights  Dashboard: Enforce minimum refresh interval Data source: Google Sheets data source Explore: Query history Authorization: Azure OAuth Stackdriver: Project Selector Enterprise: White labeling for application title Enterprise: Reporting configuration for timeout and concurrency Enterprise: Export dashboard as pdf Enterprise: Report landscape mode Enterprise: Azure OAuth Team Sync support  General features General features are included in all Grafana editions.</description>
+        </item>
+        
+        <item>
+        <title>Introducing Grafana Cloud Agent, a remote_write-focused Prometheus agent that can save 40% on memory usage</title>
+        <link>https://grafana.com/blog/2020/03/18/introducing-grafana-cloud-agent-a-remote_write-focused-prometheus-agent-that-can-save-40-on-memory-usage/?utm_source=grafana&amp;utm_medium=rss</link>
+        <pubDate>Wed, 18 Mar 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://grafana.com/blog/2020/03/18/introducing-grafana-cloud-agent-a-remote_write-focused-prometheus-agent-that-can-save-40-on-memory-usage/?utm_source=grafana&amp;utm_medium=rss</guid>
+        <description>Today, we are announcing the Grafana Cloud Agent, a subset of Prometheus built for hosted metrics that runs lean on memory and uses much of the same battle-tested code that has made Prometheus so awesome.
+At Grafana Labs, we love Prometheus. We deploy it for our internal monitoring, use it alongside Alertmanager, and have it configured to send its data to Cortex via remote_write. Unfortunately, as we scale to handle more than 4 million active series in a single Prometheus, our deployment becomes more and more difficult to manage.</description>
+        </item>
+        
+        <item>
+        <title>How to work from home with kids: More tips from the remote-first Grafana Labs team</title>
+        <link>https://grafana.com/blog/2020/03/17/how-to-work-from-home-with-kids-more-tips-from-the-remote-first-grafana-labs-team/?utm_source=grafana&amp;utm_medium=rss</link>
+        <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://grafana.com/blog/2020/03/17/how-to-work-from-home-with-kids-more-tips-from-the-remote-first-grafana-labs-team/?utm_source=grafana&amp;utm_medium=rss</guid>
+        <description>Last week we posted tips from our remote-first Grafana Labs team on how to work from home effectively. Why would we write another?
+Kids.
+ All around the world, schools, kindergartens, pre-schools, daycares, and every other place that keeps kids occupied are closing, and that means many people are not only adapting to a home office, but they&amp;rsquo;re also taking on homeschooling and home care as well. All while also worrying about elderly, weak-of-heart, immunocompromised, or otherwise at-risk loved ones.</description>
+        </item>
+        
+        <item>
+        <title>Watch talks on Cortex vs. Thanos, Metrictank past and present, and a preview of Grafana 7 from our recent meetup</title>
+        <link>https://grafana.com/blog/2020/03/16/watch-talks-on-cortex-vs.-thanos-metrictank-past-and-present-and-a-preview-of-grafana-7-from-our-recent-meetup/?utm_source=grafana&amp;utm_medium=rss</link>
+        <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://grafana.com/blog/2020/03/16/watch-talks-on-cortex-vs.-thanos-metrictank-past-and-present-and-a-preview-of-grafana-7-from-our-recent-meetup/?utm_source=grafana&amp;utm_medium=rss</guid>
+        <description>Check out the latest meetup we hosted in Tel Aviv, Israel, together with longtime Grafana users, Taboola!
+ It has been a little while since we organized a meetup in Tel-Aviv &amp;ndash; 2016 to be exact &amp;ndash; so we decided it was a fine time to get back to this beautiful city.
+Taboola were kind enough to host the Grafana meetup at their wonderful offices in the Atrium tower for an afternoon of metrics, logs, traces, and good times!</description>
+        </item>
+        
+        <item>
+        <title>Meet the Grafana Labs team: Cortex maintainer Peter Štibraný!</title>
+        <link>https://grafana.com/blog/2020/03/13/meet-the-grafana-labs-team-cortex-maintainer-peter-%C5%A1tibran%C3%BD/?utm_source=grafana&amp;utm_medium=rss</link>
+        <pubDate>Fri, 13 Mar 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://grafana.com/blog/2020/03/13/meet-the-grafana-labs-team-cortex-maintainer-peter-%C5%A1tibran%C3%BD/?utm_source=grafana&amp;utm_medium=rss</guid>
+        <description>As Grafana Labs continues to grow, we&amp;rsquo;d like you to get to know the team members who are working on the cool stuff you&amp;rsquo;re using. Check out the latest of our Friday team profiles.
+Meet Peter! Name: Peter Štibraný
+Grafana Labs Software Engineer Peter Štibraný   Current location/time zone
+I am a Slovak expat living in Lyngby, north of Copenhagen in Denmark. My time zone is CET (GMT+1).</description>
+        </item>
+        
+    </channel>
+</rss>
