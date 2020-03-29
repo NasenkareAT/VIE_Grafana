@@ -12,10 +12,9 @@
         
         <item>
         <title>Energiebericht Jänner 2020 - Kälte</title>
-        <link>www.viennaairport.com</link>
-        <pubDate>Mon, 03 Feb 2020 00:00:00 +0000</pubDate>
-        
-        <guid>www.viennaairport.com</guid>
+
+        <pubDate>03 Feb 2020 00:00:00 +0000</pubDate>
+
         <description>Die Entwicklung des Gesamtkälteverbrauchs (-6,2%) spiegelt sich auch auf Objektebene wieder. Wenigen Mehrverbräuchen steht ein großer Anteil von Verbrauchsreduktionen entgegen.
 
         Der signifikanteste Mehrverbrauch wurde im Flugsicherungsturm mit +45 MWh verzeichnet. Dieser konnte im Zuge von Anlagenanalysen auf Entfeuchtungsbetrieb und damit verbundenes Kühlen zurückgeführt werden. Ein Projekt zur Optimierung dieser Feuchteregelung wird in Abstimmung mit den Nutzern durchgeführt.
@@ -25,16 +24,17 @@
         </item>
         
         <item>
-        <title>Community series: What trust means</title>
-        <link>https://grafana.com/blog/2020/03/26/community-series-what-trust-means/?utm_source=grafana&amp;utm_medium=rss</link>
-        <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
-        
-        <guid>https://grafana.com/blog/2020/03/26/community-series-what-trust-means/?utm_source=grafana&amp;utm_medium=rss</guid>
-        <description>This is the second post in our community series.
-If you read my last community blog post, you probably expected this piece to be about asking good questions. But it’s not.
-Instead, it&amp;rsquo;s about trust.
-And that leads us to a very interesting question: Why did you expect something different?
-Because I said that’s what I would write about, and you trusted me. Specifically, I ended with, “Which is why the next blog post in our series will cover asking questions in an efficient and effective manner.</description>
+        <title>Energiebericht Dezember 2019 - Kälte</title>
+        <pubDate>09.01.2020 00:00:00 +0000</pubDate>
+        <description>Die Entwicklung des Gesamtkälteverbrauchs (+8,5%) aufgrund der wärmeren Witterung spiegelt sich auch auf Objektebene wieder. 
+
+        In Objekten mit hohen Komfortansprüchen wurden Verbrauachssteigerungen verzeichnet. So stieg die Kältenutzung im Pier Nord um +57 MWh (+23%) und im Terminal 3 um +53 MWh (+11%). Die Mehrverbräuche in dieser Größenordnung sind auf die höheren Temperaturen zurückzuführen. 
+
+        Im HCW reduzierte sich die Kältenutzung um -19 MWh. Hier wurde die Parametrierung einer Hauptlüftungsanlage angepasst, wodurch überflüssige Kältenutzung vermieden werden konnte. 
+
+        Im Office Park 1 ist die deutliche Verbrauchsreduktion von -18 MWh (-33%) auf zwei wesentliche Maßnahmen zurückzuführen. Zum einen wurde ein Defekt am Regelventil  einer Hauptlüftungsanlage behoben der zu überflüssigem Kälteverbrauch führte. Zum anderen wurden beide Hauptlüftungsanlagen durch Anpassung der Regelung optimiert. 
+
+        In den westlichen Busgates (Objekt 103) wurden im Zuge von Anlagenanalysen Optimierungspotentiale in der Funktionsweise der Lüftungsanlagen entdeckt und gehoben – die Kältenutzung reduzierte sich um -16 MWh.</description>
         </item>
             
     </channel>
